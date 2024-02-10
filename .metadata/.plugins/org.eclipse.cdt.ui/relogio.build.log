@@ -1,0 +1,206 @@
+
+**** Build of configuration Debug for project relogio ****
+
+"C:\\ti\\ccs1220\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../Nokia5110.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/marco/projetos/micro/relogio" --include_path="C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Nokia5110.d_raw"  "../Nokia5110.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Nokia5110.obj' failed
+"../Nokia5110.c", line 31: error #150: variable "ASCII" has already been initialized
+"../Nokia5110.c", line 129: warning #1238-D: excess initializers are ignored
+"../Nokia5110.c", line 153: error #20: identifier "Nokia_5110" is undefined
+"../Nokia5110.c", line 155: error #20: identifier "Created" is undefined
+"../Nokia5110.c", line 155: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/ssi.h", line 122: warning #12-D: parsing restarts here after previous syntax error
+"../Nokia5110.c", line 196: error #130-D: a block-scope function may only have extern storage class
+"../Nokia5110.c", line 196: error #66: expected a ";"
+"../Nokia5110.c", line 251: warning #12-D: parsing restarts here after previous syntax error
+"../Nokia5110.c", line 274: error #20: identifier "delay" is undefined
+"../Nokia5110.c", line 171: warning #179-D: variable "Screen" was declared but never referenced
+"../Nokia5110.c", line 172: warning #179-D: variable "Masks" was declared but never referenced
+"../Nokia5110.c", line 299: error #66: expected a ";"
+"../Nokia5110.c", line 369: warning #12-D: parsing restarts here after previous syntax error
+"../Nokia5110.c", line 370: error #20: identifier "n" is undefined
+"../Nokia5110.c", line 372: error #171: expected a declaration
+"../Nokia5110.c", line 435: warning #12-D: parsing restarts here after previous syntax error
+"../Nokia5110.c", line 570: error #20: identifier "ansmit" is undefined
+"../Nokia5110.c", line 570: error #66: expected a ";"
+"../Nokia5110.c", line 572: error #41: expected an identifier
+"../Nokia5110.c", line 572: error #18: expected a ")"
+"../Nokia5110.c", line 573: error #41: expected an identifier
+"../Nokia5110.c", line 573: error #18: expected a ")"
+"../Nokia5110.c", line 573: error #20: identifier "message" is undefined
+"../Nokia5110.c", line 576: error #171: expected a declaration
+"../Nokia5110.c", line 577: error #171: expected a declaration
+"../Nokia5110.c", line 626: warning #12-D: parsing restarts here after previous syntax error
+"../Nokia5110.c", line 631: error #41: expected an identifier
+"../Nokia5110.c", line 631: error #18: expected a ")"
+"../Nokia5110.c", line 631: error #28: expression must have a constant value
+"../Nokia5110.c", line 632: error #41: expected an identifier
+"../Nokia5110.c", line 632: error #18: expected a ")"
+"../Nokia5110.c", line 632: error #66: expected a ";"
+"../Nokia5110.c", line 636: error #41: expected an identifier
+"../Nokia5110.c", line 636: error #18: expected a ")"
+"../Nokia5110.c", line 636: error #28: expression must have a constant value
+"../Nokia5110.c", line 637: error #41: expected an identifier
+"../Nokia5110.c", line 637: error #18: expected a ")"
+"../Nokia5110.c", line 637: error #28: expression must have a constant value
+"../Nokia5110.c", line 638: error #41: expected an identifier
+"../Nokia5110.c", line 638: error #18: expected a ")"
+"../Nokia5110.c", line 638: error #66: expected a ";"
+"../Nokia5110.c", line 640: error #41: expected an identifier
+"../Nokia5110.c", line 640: error #18: expected a ")"
+"../Nokia5110.c", line 641: error #171: expected a declaration
+"../Nokia5110.c", line 642: error #41: expected an identifier
+"../Nokia5110.c", line 642: error #18: expected a ")"
+"../Nokia5110.c", line 642: warning #145-D: a value of type "int" cannot be used to initialize an entity of type "int *"
+"../Nokia5110.c", line 642: warning #154-D: conversion of nonzero integer to pointer
+"../Nokia5110.c", line 644: error #41: expected an identifier
+"../Nokia5110.c", line 644: warning #78-D: this declaration has no storage class or type specifier
+"../Nokia5110.c", line 644: warning #93-D: identifier-list parameters may only be used in a function definition
+"../Nokia5110.c", line 644: error #148: declaration is incompatible with "void lcdwrite(enum typeOfWrite, uint8_t)" (declared at line 148)
+"../Nokia5110.c", line 647: error #41: expected an identifier
+"../Nokia5110.c", line 647: warning #78-D: this declaration has no storage class or type specifier
+"../Nokia5110.c", line 647: warning #93-D: identifier-list parameters may only be used in a function definition
+"../Nokia5110.c", line 647: error #148: declaration is incompatible with "void lcdwrite(enum typeOfWrite, uint8_t)" (declared at line 148)
+"../Nokia5110.c", line 648: error #41: expected an identifier
+"../Nokia5110.c", line 648: warning #78-D: this declaration has no storage class or type specifier
+"../Nokia5110.c", line 648: warning #93-D: identifier-list parameters may only be used in a function definition
+"../Nokia5110.c", line 648: error #148: declaration is incompatible with "void lcdwrite(enum typeOfWrite, uint8_t)" (declared at line 148)
+"../Nokia5110.c", line 649: error #41: expected an identifier
+"../Nokia5110.c", line 649: warning #78-D: this declaration has no storage class or type specifier
+"../Nokia5110.c", line 649: warning #93-D: identifier-list parameters may only be used in a function definition
+"../Nokia5110.c", line 649: error #148: declaration is incompatible with "void lcdwrite(enum typeOfWrite, uint8_t)" (declared at line 148)
+"../Nokia5110.c", line 651: error #41: expected an identifier
+"../Nokia5110.c", line 651: warning #78-D: this declaration has no storage class or type specifier
+"../Nokia5110.c", line 651: warning #93-D: identifier-list parameters may only be used in a function definition
+"../Nokia5110.c", line 651: error #148: declaration is incompatible with "void lcdwrite(enum typeOfWrite, uint8_t)" (declared at line 148)
+"../Nokia5110.c", line 652: error #41: expected an identifier
+"../Nokia5110.c", line 652: warning #78-D: this declaration has no storage class or type specifier
+"../Nokia5110.c", line 652: warning #93-D: identifier-list parameters may only be used in a function definition
+"../Nokia5110.c", line 652: error #148: declaration is incompatible with "void lcdwrite(enum typeOfWrite, uint8_t)" (declared at line 148)
+"../Nokia5110.c", line 653: error #171: expected a declaration
+"../Nokia5110.c", line 803: warning #12-D: parsing restarts here after previous syntax error
+"../Nokia5110.c", line 804: warning #78-D: this declaration has no storage class or type specifier
+"../Nokia5110.c", line 804: error #66: expected a ";"
+"../Nokia5110.c", line 805: error #171: expected a declaration
+"../Nokia5110.c", line 838: warning #12-D: parsing restarts here after previous syntax error
+"../Nokia5110.c", line 839: warning #78-D: this declaration has no storage class or type specifier
+"../Nokia5110.c", line 839: error #20: identifier "xpos" is undefined
+"../Nokia5110.c", line 839: error #20: identifier "screeny" is undefined
+"../Nokia5110.c", line 841: warning #78-D: this declaration has no storage class or type specifier
+"../Nokia5110.c", line 841: error #20: identifier "ypos" is undefined
+"../Nokia5110.c", line 842: warning #78-D: this declaration has no storage class or type specifier
+"../Nokia5110.c", line 842: error #150: variable "mask" has already been initialized
+"../Nokia5110.c", line 842: error #28: expression must have a constant value
+"../Nokia5110.c", line 843: warning #78-D: this declaration has no storage class or type specifier
+"../Nokia5110.c", line 843: error #20: identifier "ptr" is undefined
+"../Nokia5110.c", line 845: error #171: expected a declaration
+"../Nokia5110.c", line 867: warning #12-D: parsing restarts here after previous syntax error
+"../Nokia5110.c", line 868: error #171: expected a declaration
+"../Nokia5110.c", line 874: error #171: expected a declaration
+"../Nokia5110.c", line 945: warning #12-D: parsing restarts here after previous syntax error
+"../Nokia5110.c", line 948: error #41: expected an identifier
+"../Nokia5110.c", line 948: error #18: expected a ")"
+"../Nokia5110.c", line 948: error #66: expected a ";"
+"../Nokia5110.c", line 949: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+"../Nokia5110.c", line 133: warning #179-D: variable "SPECIAL_SIMBOLS" was declared but never referenced
+"../Nokia5110.c", line 138: warning #179-D: variable "MIX_SIMBOLS" was declared but never referenced
+67 errors detected in the compilation of "../Nokia5110.c".
+gmake: *** [Nokia5110.obj] Error 1
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/marco/projetos/micro/relogio" --include_path="C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 48: warning #48-D: incompatible redefinition of macro "INT_GPIOA" (declared at line 370 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 49: warning #48-D: incompatible redefinition of macro "INT_GPIOB" (declared at line 371 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 50: warning #48-D: incompatible redefinition of macro "INT_GPIOC" (declared at line 372 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 51: warning #48-D: incompatible redefinition of macro "INT_GPIOD" (declared at line 373 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 52: warning #48-D: incompatible redefinition of macro "INT_GPIOE" (declared at line 374 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 53: warning #48-D: incompatible redefinition of macro "INT_UART0" (declared at line 451 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 54: warning #48-D: incompatible redefinition of macro "INT_UART1" (declared at line 452 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 55: warning #48-D: incompatible redefinition of macro "INT_SSI0" (declared at line 428 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 56: warning #48-D: incompatible redefinition of macro "INT_I2C0" (declared at line 403 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 57: warning #48-D: incompatible redefinition of macro "INT_PWM0_FAULT" (declared at line 419 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 58: warning #48-D: incompatible redefinition of macro "INT_PWM0_0" (declared at line 415 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 59: warning #48-D: incompatible redefinition of macro "INT_PWM0_1" (declared at line 416 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 60: warning #48-D: incompatible redefinition of macro "INT_PWM0_2" (declared at line 417 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 61: warning #48-D: incompatible redefinition of macro "INT_QEI0" (declared at line 425 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 62: warning #48-D: incompatible redefinition of macro "INT_ADC0SS0" (declared at line 352 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 63: warning #48-D: incompatible redefinition of macro "INT_ADC0SS1" (declared at line 353 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 64: warning #48-D: incompatible redefinition of macro "INT_ADC0SS2" (declared at line 354 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 65: warning #48-D: incompatible redefinition of macro "INT_ADC0SS3" (declared at line 355 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 66: warning #48-D: incompatible redefinition of macro "INT_WATCHDOG" (declared at line 462 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 67: warning #48-D: incompatible redefinition of macro "INT_TIMER0A" (declared at line 435 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 68: warning #48-D: incompatible redefinition of macro "INT_TIMER0B" (declared at line 436 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 69: warning #48-D: incompatible redefinition of macro "INT_TIMER1A" (declared at line 437 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 70: warning #48-D: incompatible redefinition of macro "INT_TIMER1B" (declared at line 438 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 71: warning #48-D: incompatible redefinition of macro "INT_TIMER2A" (declared at line 439 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 72: warning #48-D: incompatible redefinition of macro "INT_TIMER2B" (declared at line 440 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 73: warning #48-D: incompatible redefinition of macro "INT_COMP0" (declared at line 363 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 74: warning #48-D: incompatible redefinition of macro "INT_COMP1" (declared at line 364 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 75: warning #48-D: incompatible redefinition of macro "INT_SYSCTL" (declared at line 432 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 76: warning #48-D: incompatible redefinition of macro "INT_FLASH" (declared at line 369 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 78: warning #48-D: incompatible redefinition of macro "INT_GPIOF" (declared at line 375 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 79: warning #48-D: incompatible redefinition of macro "INT_UART2" (declared at line 453 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 80: warning #48-D: incompatible redefinition of macro "INT_SSI1" (declared at line 429 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 81: warning #48-D: incompatible redefinition of macro "INT_TIMER3A" (declared at line 441 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 82: warning #48-D: incompatible redefinition of macro "INT_TIMER3B" (declared at line 442 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 83: warning #48-D: incompatible redefinition of macro "INT_I2C1" (declared at line 404 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 84: warning #48-D: incompatible redefinition of macro "INT_QEI1" (declared at line 426 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 85: warning #48-D: incompatible redefinition of macro "INT_CAN0" (declared at line 361 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 86: warning #48-D: incompatible redefinition of macro "INT_CAN1" (declared at line 362 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 87: warning #48-D: incompatible redefinition of macro "INT_HIBERNATE" (declared at line 402 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 88: warning #48-D: incompatible redefinition of macro "INT_USB0" (declared at line 461 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 89: warning #48-D: incompatible redefinition of macro "INT_PWM0_3" (declared at line 418 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 90: warning #48-D: incompatible redefinition of macro "INT_UDMA" (declared at line 459 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 91: warning #48-D: incompatible redefinition of macro "INT_UDMAERR" (declared at line 460 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 92: warning #48-D: incompatible redefinition of macro "INT_ADC1SS0" (declared at line 356 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 93: warning #48-D: incompatible redefinition of macro "INT_ADC1SS1" (declared at line 357 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 94: warning #48-D: incompatible redefinition of macro "INT_ADC1SS2" (declared at line 358 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 95: warning #48-D: incompatible redefinition of macro "INT_ADC1SS3" (declared at line 359 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 96: warning #48-D: incompatible redefinition of macro "INT_SSI2" (declared at line 430 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 97: warning #48-D: incompatible redefinition of macro "INT_SSI3" (declared at line 431 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 98: warning #48-D: incompatible redefinition of macro "INT_UART3" (declared at line 454 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 99: warning #48-D: incompatible redefinition of macro "INT_UART4" (declared at line 455 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 100: warning #48-D: incompatible redefinition of macro "INT_UART5" (declared at line 456 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 101: warning #48-D: incompatible redefinition of macro "INT_UART6" (declared at line 457 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 102: warning #48-D: incompatible redefinition of macro "INT_UART7" (declared at line 458 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 103: warning #48-D: incompatible redefinition of macro "INT_I2C2" (declared at line 405 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 104: warning #48-D: incompatible redefinition of macro "INT_I2C3" (declared at line 406 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 105: warning #48-D: incompatible redefinition of macro "INT_TIMER4A" (declared at line 443 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 106: warning #48-D: incompatible redefinition of macro "INT_TIMER4B" (declared at line 444 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 107: warning #48-D: incompatible redefinition of macro "INT_TIMER5A" (declared at line 445 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 108: warning #48-D: incompatible redefinition of macro "INT_TIMER5B" (declared at line 446 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 109: warning #48-D: incompatible redefinition of macro "INT_WTIMER0A" (declared at line 463 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 110: warning #48-D: incompatible redefinition of macro "INT_WTIMER0B" (declared at line 464 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 111: warning #48-D: incompatible redefinition of macro "INT_WTIMER1A" (declared at line 465 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 112: warning #48-D: incompatible redefinition of macro "INT_WTIMER1B" (declared at line 466 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 113: warning #48-D: incompatible redefinition of macro "INT_WTIMER2A" (declared at line 467 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 114: warning #48-D: incompatible redefinition of macro "INT_WTIMER2B" (declared at line 468 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 115: warning #48-D: incompatible redefinition of macro "INT_WTIMER3A" (declared at line 469 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 116: warning #48-D: incompatible redefinition of macro "INT_WTIMER3B" (declared at line 470 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 117: warning #48-D: incompatible redefinition of macro "INT_WTIMER4A" (declared at line 471 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 118: warning #48-D: incompatible redefinition of macro "INT_WTIMER4B" (declared at line 472 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 119: warning #48-D: incompatible redefinition of macro "INT_WTIMER5A" (declared at line 473 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 120: warning #48-D: incompatible redefinition of macro "INT_WTIMER5B" (declared at line 474 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 121: warning #48-D: incompatible redefinition of macro "INT_SYSEXC" (declared at line 433 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 122: warning #48-D: incompatible redefinition of macro "INT_PWM1_0" (declared at line 420 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 123: warning #48-D: incompatible redefinition of macro "INT_PWM1_1" (declared at line 421 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 124: warning #48-D: incompatible redefinition of macro "INT_PWM1_2" (declared at line 422 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 125: warning #48-D: incompatible redefinition of macro "INT_PWM1_3" (declared at line 423 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/tm4c123gh6pm.h", line 126: warning #48-D: incompatible redefinition of macro "INT_PWM1_FAULT" (declared at line 424 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/inc/hw_ints.h")
+"../main.c", line 48: warning #225-D: function "Nokia5110_MyDrawing" declared implicitly
+At end of source: error #68: expected a "}"
+At end of source: error #68: expected a "}"
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

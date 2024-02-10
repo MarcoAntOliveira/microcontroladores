@@ -1,0 +1,1 @@
+"./i2c_bmp_main.obj" "./startup_ccs.obj" "./drivers/rgb.obj" "./utils/uartstdio.obj" "../pressure_bmp180_ccs.cmd" -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" -l"C:/ti/TivaWare_C_Series-2.2.0.295/sensorlib/ccs/Debug/sensorlib.lib" -llibc.a 

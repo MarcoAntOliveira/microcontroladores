@@ -1,0 +1,20 @@
+
+**** Build of configuration Debug for project display ****
+
+"C:\\ti\\ccs1220\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv4 --code_state=32 --include_path="C:/Users/marco/projetos/micro/display" --include_path="C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "display.out"
+Invoking: Arm Linker
+"C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv4 --code_state=32 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"display.map" -i"C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="display_linkInfo.xml" --rom_model -o "display.out" "./main.obj" "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib"  -llibc.a 
+<Linking>
+warning #10247-D: creating output section ".text" without a SECTIONS specification
+warning #10210-D: creating ".stack" section with default size of 0x800; use the -stack option to change the default size
+Finished building target: "display.out"
+ 
+
+**** Build Finished ****

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;nokia_classsico/display.c&apos; to &apos;Nokia5110.c&apos;" description="Rename resource &apos;display.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="display.c" name="Nokia5110.c" stamp="1689148011399" updateReferences="true"/>
+</session>

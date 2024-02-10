@@ -1,0 +1,189 @@
+******************************************************************************
+                  TI ARM Linker PC v20.2.7                     
+******************************************************************************
+>> Linked Tue May 16 11:12:14 2023
+
+OUTPUT FILE NAME:   <contador.out>
+ENTRY POINT SYMBOL: "_c_int00_noinit_noargs"  address: 000008bd
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  FLASH                 00000000   00040000  000009d2  0003f62e  R  X
+  SRAM                  20000000   00008000  00000200  00007e00  RW X
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000000    00000000    000009d4   000009d4    r-x
+  00000000    00000000    0000026c   0000026c    r-- .intvecs
+  0000026c    0000026c    000006f6   000006f6    r-x .text
+  00000964    00000964    00000070   00000070    r-- .const
+20000000    20000000    00000200   00000000    rw-
+  20000000    20000000    00000200   00000000    rw- .stack
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    00000000    0000026c     
+                  00000000    0000026c     tm4c123gh6pm_startup_ccs.obj (.intvecs)
+
+.text      0    0000026c    000006f6     
+                  0000026c    00000480     main.obj (.text)
+                  000006ec    00000132     driverlib.lib : gpio.obj (.text:GPIOPadConfigSet)
+                  0000081e    00000002     --HOLE-- [fill = 0]
+                  00000820    00000068                   : interrupt.obj (.text:IntEnable)
+                  00000888    00000034                   : sysctl.obj (.text:SysCtlPeripheralEnable)
+                  000008bc    0000002c     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.text:_c_int00_noinit_noargs:_c_int00_noinit_noargs)
+                  000008e8    0000002a     driverlib.lib : gpio.obj (.text:GPIODirModeSet)
+                  00000912    00000018                   : gpio.obj (.text:GPIOPinTypeGPIOOutput)
+                  0000092a    00000010                   : interrupt.obj (.text:IntMasterEnable)
+                  0000093a    0000000c                   : cpu.obj (.text:CPUcpsie)
+                  00000946    0000000c     tm4c123gh6pm_startup_ccs.obj (.text)
+                  00000952    00000008     driverlib.lib : uart.obj (.text:UARTIntEnable)
+                  0000095a    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : pre_init.c.obj (.text:_system_pre_init)
+                  0000095e    00000004                                   : exit.c.obj (.text:abort:abort)
+
+.const     0    00000964    00000070     
+                  00000964    00000070     driverlib.lib : interrupt.obj (.const)
+
+.cinit     0    00000000    00000000     UNINITIALIZED
+
+.init_array 
+*          0    00000000    00000000     UNINITIALIZED
+
+.stack     0    20000000    00000200     UNINITIALIZED
+                  20000000    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.stack)
+                  20000004    000001fc     --HOLE--
+
+__llvm_prf_cnts 
+*          0    20000000    00000000     UNINITIALIZED
+
+MODULE SUMMARY
+
+       Module                         code   ro data   rw data
+       ------                         ----   -------   -------
+    .\
+       main.obj                       1152   0         0      
+       tm4c123gh6pm_startup_ccs.obj   12     620       0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         1164   620       0      
+                                                              
+    C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib
+       gpio.obj                       372    0         0      
+       interrupt.obj                  120    112       0      
+       sysctl.obj                     52     0         0      
+       cpu.obj                        12     0         0      
+       uart.obj                       8      0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         564    112       0      
+                                                              
+    C:\ti\ccs1220\ccs\tools\compiler\ti-cgt-arm_20.2.7.LTS\lib\rtsv7M4_T_le_v4SPD16_eabi.lib
+       boot_cortex_m.c.obj            44     0         0      
+       exit.c.obj                     4      0         0      
+       pre_init.c.obj                 4      0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         52     0         0      
+                                                              
+       Stack:                         0      0         512    
+    +--+------------------------------+------+---------+---------+
+       Grand Total:                   1780   732       512    
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address   name                   
+-------   ----                   
+0000095f  C$$EXIT                
+0000093b  CPUcpsie               
+000008e9  GPIODirModeSet         
+000006ed  GPIOPadConfigSet       
+00000913  GPIOPinTypeGPIOOutput  
+00000821  IntEnable              
+0000092b  IntMasterEnable        
+00000947  ResetISR               
+00000889  SysCtlPeripheralEnable 
+00000953  UARTIntEnable          
+20000200  __STACK_END            
+00000200  __STACK_SIZE           
+20000200  __STACK_TOP            
+ffffffff  __TI_pprof_out_hndl    
+ffffffff  __TI_prof_data_size    
+ffffffff  __TI_prof_data_start   
+00000000  __TI_static_base__     
+ffffffff  __binit__              
+ffffffff  __c_args__             
+UNDEFED   __mpu_init             
+20000000  __stack                
+20000000  __start___llvm_prf_cnts
+20000000  __stop___llvm_prf_cnts 
+000008bd  _c_int00_noinit_noargs 
+0000095b  _system_pre_init       
+0000095f  abort                  
+ffffffff  binit                  
+000002a9  configura_pino_saida   
+00000377  delay                  
+00000295  desabilita_portal      
+0000039b  escolhe_digito         
+0000045f  escreve_1digito        
+00000575  escreve_numero         
+00000317  escrita_pinos          
+00000000  g_pfnVectors           
+00000281  habilita_portal        
+0000026d  habilita_portal2       
+00000337  limpa_display          
+0000062d  main                   
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address   name                   
+-------   ----                   
+00000000  __TI_static_base__     
+00000000  g_pfnVectors           
+00000200  __STACK_SIZE           
+0000026d  habilita_portal2       
+00000281  habilita_portal        
+00000295  desabilita_portal      
+000002a9  configura_pino_saida   
+00000317  escrita_pinos          
+00000337  limpa_display          
+00000377  delay                  
+0000039b  escolhe_digito         
+0000045f  escreve_1digito        
+00000575  escreve_numero         
+0000062d  main                   
+000006ed  GPIOPadConfigSet       
+00000821  IntEnable              
+00000889  SysCtlPeripheralEnable 
+000008bd  _c_int00_noinit_noargs 
+000008e9  GPIODirModeSet         
+00000913  GPIOPinTypeGPIOOutput  
+0000092b  IntMasterEnable        
+0000093b  CPUcpsie               
+00000947  ResetISR               
+00000953  UARTIntEnable          
+0000095b  _system_pre_init       
+0000095f  C$$EXIT                
+0000095f  abort                  
+20000000  __stack                
+20000000  __start___llvm_prf_cnts
+20000000  __stop___llvm_prf_cnts 
+20000200  __STACK_END            
+20000200  __STACK_TOP            
+ffffffff  __TI_pprof_out_hndl    
+ffffffff  __TI_prof_data_size    
+ffffffff  __TI_prof_data_start   
+ffffffff  __binit__              
+ffffffff  __c_args__             
+ffffffff  binit                  
+UNDEFED   __mpu_init             
+
+[39 symbols]

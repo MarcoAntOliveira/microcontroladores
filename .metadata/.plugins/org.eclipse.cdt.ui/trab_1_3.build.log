@@ -1,0 +1,49 @@
+
+**** Build of configuration Debug for project trab_1_3 ****
+
+"C:\\ti\\ccs1220\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/marco/projetos/micro/trab_1_3" --include_path="C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h", line 153: error #20: identifier "bool" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/interrupt.h", line 67: error #20: identifier "bool" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/interrupt.h", line 68: error #20: identifier "bool" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h", line 585: error #20: identifier "bool" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h", line 586: error #20: identifier "bool" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h", line 596: error #20: identifier "bool" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h", line 602: error #20: identifier "bool" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h", line 626: error #20: identifier "bool" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h", line 627: error #20: identifier "bool" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h", line 628: error #20: identifier "bool" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h", line 645: error #20: identifier "bool" is undefined
+"../main.c", line 207: warning #78-D: this declaration has no storage class or type specifier
+"../main.c", line 207: warning #93-D: identifier-list parameters may only be used in a function definition
+"../main.c", line 207: error #148: declaration is incompatible with "void SysCtlPeripheralEnable(uint32_t)" (declared at line 590 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/sysctl.h")
+"../main.c", line 208: warning #78-D: this declaration has no storage class or type specifier
+"../main.c", line 208: warning #93-D: identifier-list parameters may only be used in a function definition
+"../main.c", line 208: error #148: declaration is incompatible with "void GPIOPinTypeGPIOInput(uint32_t, uint8_t)" (declared at line 171 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h")
+"../main.c", line 210: warning #78-D: this declaration has no storage class or type specifier
+"../main.c", line 210: warning #93-D: identifier-list parameters may only be used in a function definition
+"../main.c", line 211: warning #78-D: this declaration has no storage class or type specifier
+"../main.c", line 211: warning #93-D: identifier-list parameters may only be used in a function definition
+"../main.c", line 212: warning #78-D: this declaration has no storage class or type specifier
+"../main.c", line 212: warning #93-D: identifier-list parameters may only be used in a function definition
+"../main.c", line 213: error #41: expected an identifier
+"../main.c", line 213: warning #78-D: this declaration has no storage class or type specifier
+"../main.c", line 213: warning #93-D: identifier-list parameters may only be used in a function definition
+"../main.c", line 213: error #148: declaration is incompatible with "void GPIOIntTypeSet(uint32_t, uint8_t, uint32_t)" (declared at line 144 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h")
+"../main.c", line 215: warning #78-D: this declaration has no storage class or type specifier
+"../main.c", line 215: warning #93-D: identifier-list parameters may only be used in a function definition
+"../main.c", line 215: error #148: declaration is incompatible with "void IntEnable(uint32_t)" (declared at line 76 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/interrupt.h")
+"../main.c", line 222: warning #78-D: this declaration has no storage class or type specifier
+"../main.c", line 222: warning #93-D: identifier-list parameters may only be used in a function definition
+"../main.c", line 222: error #148: declaration is incompatible with "void GPIOIntRegister(uint32_t, void (*)(void))" (declared at line 155 of "C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/gpio.h")
+17 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

@@ -1,0 +1,112 @@
+
+**** Build of configuration Debug for project Arduino ****
+
+"C:\\ti\\ccs1220\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/marco/projetos/micro/Arduino" --include_path="C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178" --include_path="C:/ti/ccs1220/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 12: error #20: identifier "class" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 12: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 34: warning #12-D: parsing restarts here after previous syntax error
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 35: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 35: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 36: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 36: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 37: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 37: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 39: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 39: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 44: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 44: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 45: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 45: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 52: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 52: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 53: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 53: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 54: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 54: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 56: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 56: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 58: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 58: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 60: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 60: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 80: error #148: declaration is incompatible with "void drawBitmap(int16_t, int16_t, const uint8_t *, int16_t, int16_t, uint16_t)" (declared at line 78)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 82: error #148: declaration is incompatible with "void drawBitmap(int16_t, int16_t, const uint8_t *, int16_t, int16_t, uint16_t, uint16_t)" (declared at line 80)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 84: error #148: declaration is incompatible with "void drawBitmap(int16_t, int16_t, uint8_t *, int16_t, int16_t, uint16_t)" (declared at line 82)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 90: error #148: declaration is incompatible with "void drawGrayscaleBitmap(int16_t, int16_t, const uint8_t *, int16_t, int16_t)" (declared at line 88)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 92: error #148: declaration is incompatible with "void drawGrayscaleBitmap(int16_t, int16_t, uint8_t *, int16_t, int16_t)" (declared at line 90)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 94: error #148: declaration is incompatible with "void drawGrayscaleBitmap(int16_t, int16_t, const uint8_t *, const uint8_t *, int16_t, int16_t)" (declared at line 92)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 98: error #148: declaration is incompatible with "void drawRGBBitmap(int16_t, int16_t, const uint16_t *, int16_t, int16_t)" (declared at line 96)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 100: error #148: declaration is incompatible with "void drawRGBBitmap(int16_t, int16_t, uint16_t *, int16_t, int16_t)" (declared at line 98)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 102: error #148: declaration is incompatible with "void drawRGBBitmap(int16_t, int16_t, const uint16_t *, const uint8_t *, int16_t, int16_t)" (declared at line 100)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 106: error #148: declaration is incompatible with "void drawChar(int16_t, int16_t, unsigned char, uint16_t, uint16_t, uint8_t)" (declared at line 104)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 110: error #20: identifier "__FlashStringHelper" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 112: warning #262-D: explicit type is missing ("int" assumed)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 112: error #18: expected a ")"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 112: error #148: declaration is incompatible with "void getTextBounds(const <error-type> *, int16_t, int16_t, int16_t *, int16_t *, uint16_t *, uint16_t *)" (declared at line 108)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 115: error #148: declaration is incompatible with "void setTextSize(uint8_t)" (declared at line 114)
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 116: error #18: expected a ")"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 126: error #20: identifier "cursor_x" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 127: error #20: identifier "cursor_y" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 138: error #20: identifier "textcolor" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 138: error #20: identifier "textbgcolor" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 147: error #249: function "setTextColor" has already been defined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 148: error #20: identifier "textcolor" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 149: error #20: identifier "textbgcolor" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 159: error #20: identifier "wrap" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 175: error #18: expected a ")"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 175: error #20: identifier "_cp437" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 177: error #20: identifier "using" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 177: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 181: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 181: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 190: error #131: expected a "{"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 190: error #20: identifier "_width" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 198: error #131: expected a "{"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 198: error #20: identifier "_height" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 206: error #131: expected a "{"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 206: error #20: identifier "rotation" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 216: error #131: expected a "{"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 216: error #20: identifier "cursor_x" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 224: error #131: expected a "{"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 224: error #20: identifier "cursor_y" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 226: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 226: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 243: error #171: expected a declaration
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 246: error #20: identifier "class" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 246: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 267: warning #12-D: parsing restarts here after previous syntax error
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 276: error #20: identifier "laststate" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 276: error #20: identifier "currstate" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 289: error #20: identifier "currstate" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 291: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 291: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 301: error #171: expected a declaration
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 304: error #20: identifier "class" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 304: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 325: warning #12-D: parsing restarts here after previous syntax error
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 327: warning #78-D: this declaration has no storage class or type specifier
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 327: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 332: warning #12-D: parsing restarts here after previous syntax error
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 335: error #20: identifier "class" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 335: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 356: warning #12-D: parsing restarts here after previous syntax error
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 357: error #171: expected a declaration
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 360: error #20: identifier "class" is undefined
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 360: error #66: expected a ";"
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 381: warning #12-D: parsing restarts here after previous syntax error
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 383: error #171: expected a declaration
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-GFX/Adafruit_GFX.h", line 1: error #38: the #endif for this directive is missing
+"C:/Users/marco/CCS12.2.0.00009_win64/TivaWare_C_Series-2.1.4.178/driverlib/Adafruit-PCD8544/Adafruit_PCD8544.h", line 25: fatal error #1965: cannot open source file "Arduino.h"
+71 errors and 1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
